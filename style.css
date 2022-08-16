@@ -1,0 +1,113 @@
+*  {
+    background-color: hsl(222, 26%, 31%);
+}
+.main {
+    margin-top: 100px;
+}
+/* Top */
+
+#calc {
+    text-align: left;
+    padding-left: 15px;
+}
+
+input {
+    width: 80px;
+}
+
+.col-4 {
+    padding: 0;
+    color: white;
+}
+.p-div{
+    padding: 0;
+    text-align: right;
+}
+
+/* Button */
+
+.btn {
+    padding: 2px 10px 0 10px;
+    background-color: hsl(30, 25%, 89%);
+    width: 80px;
+}
+.keypad {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.keypad > div {
+    margin: 5px 0px 5px 1px;
+    padding: 0px;
+    background-color: hsl(223, 31%, 20%);
+}
+
+.first-row {
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0 0 0;
+}
+
+.last {
+    border-radius: 0 0 10px 10px;
+}
+
+.last > div {
+    padding: 0;
+    margin: 10px;
+}
+.last > div > .btn {
+    width: 140px;
+}
+
+.btn { 
+    background-color: hsl(30, 25%, 89%);
+    box-shadow: 1px 1px 0px hsl(28, 16%, 65%);
+    font-weight: bolder;
+    color: hsl(223, 31%, 20%);
+}
+
+.clear-btn {
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 1px 1px 0px hsl(224, 28%, 35%);
+    color: white;
+}
+
+.total-btn {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 1px 1px 0px hsl(6, 70%, 34%);
+    color: white;
+}
+
+/* Output Screen */
+
+.col{
+    width: 100%;
+    background-color: hsl(224, 36%, 15%);
+}
+
+.prevScreen {
+    margin: 5px 0 0 0;
+    padding: 5px 10px 0 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255 , .75);
+    border-radius: 10px 10px 0 0;
+}
+
+.currScreen {
+    margin: 0 0 5px 0;
+    padding: 0 10px 0 0;
+    width: 100%;
+    height: 4rem;
+    color: white;
+    text-align: right;
+    font-size: 2.5rem;
+    border-radius: 0 0 10px 10px;
+}
+
+/* attribution */
+
+.attribution {
+    padding-top: 100px;
+}
